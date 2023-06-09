@@ -12,10 +12,10 @@ What Chinese lyrics do you want to listen to? Let me recommend some songs for yo
 
 二、程式說明
 (一)爬蟲與資料處理
-1. 爬取魔鏡歌詞網熱門華語男女歌手名字與專頁網址，存成artists.csv(歌手、專頁網址)
-2. 讀取artists.csv中第2欄上述專頁網址，爬取該歌手的每首歌名，以及每首歌詞的網址。再另存成songs.csv(歌手、專頁網址、歌曲名、歌詞網址)
-3. 讀取songs.csv每首歌詞的網址，抓取歌詞，再另存成my_final_complete_data.csv
-4. 使用youtube-search套件中的YoutubeSearch函式，以歌手、歌曲名找尋Youtube歌曲影片網址。新增欄位並存回my_final_complete_data.csv
+1. 爬取魔鏡歌詞網熱門華語男女歌手名字與專頁網址，存成csv(歌手、專頁網址)
+2. 讀取artists.csv中第2欄上述專頁網址，爬取該歌手的每首歌名，以及每首歌詞的網址。再另存成csv(歌手、歌曲名、歌詞網址)
+3. 讀取songs.csv每首歌詞的網址，抓取歌詞，再另存成csv
+4. 使用youtube-search套件中的YoutubeSearch函式，以歌手、歌曲名找尋Youtube歌曲影片網址。新增欄位並存回原csv
 5. 針對每個row去重複、去除有出現空白欄位者。針對歌詞，盡量移除雜訊(可惜歌詞中出現作詞、作曲人以及贅字變化太多，無法清乾淨)。
 
 (二)針對輸入詞進行相似度計算
