@@ -1,4 +1,4 @@
-聊歌BOT--想聽什麼歌詞?推歌給您
+聊歌BOT--想聽什麼歌(詞)?推歌給您
 
 What Chinese lyrics do you want to listen to? Let me recommend some songs for you.
 
