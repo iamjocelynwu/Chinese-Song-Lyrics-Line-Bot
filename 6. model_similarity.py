@@ -7,7 +7,7 @@ import os.path
 import jieba
 import random
 
-# 設定向量化器和資料存檔路徑
+# 設定向量化資料存檔路徑
 vectorizer_files = ['lyrics_vectorizer.pkl', 'title_vectorizer.pkl', 'singer_vectorizer.pkl']
 vector_files = ['lyrics_vector.pkl', 'title_vector.pkl', 'singer_vector.pkl']
 
