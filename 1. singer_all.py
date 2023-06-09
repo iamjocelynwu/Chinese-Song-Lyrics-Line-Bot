@@ -29,4 +29,4 @@ for i in range(1, 34):
         for row in filtered_data:
             writer.writerow(row)
 
-print("爬蟲完成！已將資料附加到 artists.csv 檔案中。")
+print("爬蟲完成！已將資料附加到artists.csv檔案中。")
