@@ -54,5 +54,5 @@ if len(lyric_data) > 0:
 # 儲存修改後的'songs.csv'檔案
 df.to_csv('songs.csv', index=False, encoding='utf-8-sig')
 
-# 印出完成訊息
+
 print("所有歌詞爬取完成")
